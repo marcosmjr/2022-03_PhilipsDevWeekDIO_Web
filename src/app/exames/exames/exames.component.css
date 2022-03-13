@@ -10,3 +10,7 @@ table{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+div.divId{
+    margin-top: 20px;
+}

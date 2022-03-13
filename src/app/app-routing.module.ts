@@ -7,7 +7,7 @@ const routes: Routes = [
   },
   {
     path: 'ocorrencias',
-    loadChildren: () => import('./ocorrencias/ocorrencias.module').then(m => m.OcorrenciasModule)
+    loadChildren: () => import('./exames/exames.module').then(m => m.OcorrenciasModule)
   }
 ];
 

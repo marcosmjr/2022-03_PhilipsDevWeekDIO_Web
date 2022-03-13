@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { OcorrenciasRoutingModule } from './ocorrencias-routing.module';
-import { OcorrenciasComponent } from './ocorrencias/ocorrencias.component';
+import { ExamesRoutingModule } from './exames-routing.module';
+import { ExamesComponent } from './exames/exames.component';
 import {MatSortModule} from '@angular/material/sort'; 
 import {MatCardModule} from '@angular/material/card'; 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    OcorrenciasComponent
+    ExamesComponent
   ],
   imports: [
     CommonModule,
-    OcorrenciasRoutingModule,
+    ExamesRoutingModule,
     MatSortModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ]
 })
 export class OcorrenciasModule { }
